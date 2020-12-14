@@ -11,7 +11,7 @@ function handleChange(event) {
 }
 
 function show() {
-  if(ans == '2') {
+  if(ans === '2') {
     alert("You got the secret code! Polynomials has $1,024,311.25 in funds.");
   } else {
     alert("Sorry, that is not the correct secret code. Please try again.");
@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <h1><b>WELCOME TO POLYNOMIAL INC'S BANK ACCOUNT.</b></h1>
       <div classname="logo">
-        <img src={pic} width="250" height="250" />
+        <img src={pic} alt="logo" width="250" height="250" />
       </div>
       <p>
       To access funds, please type in the secret code.</p>
